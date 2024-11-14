@@ -8,7 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Main {
     public static void main(String[] args) {
         WebDriver driver =new ChromeDriver();
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();git remote add origin https://github.com/Arushitester/demo.git
+
         driver.get("https://www.amazon.in");
         String act  =driver.getTitle();
         if(act.equals("amazon.in"))
